@@ -1,0 +1,33 @@
+# secrets
+.env
+.env.*
+*.pem
+*.key
+kaggle.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# node
+node_modules/
+dist/
+build/
+.next/
+
+# os/editor
+.DS_Store
+.vscode/
+.idea/
+
+# large data / model files (remove a line if you want it tracked)
+data/raw/
+*.csv
+*.pkl
+*.h5
+!.env.example
+*.sqlite3
